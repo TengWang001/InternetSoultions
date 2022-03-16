@@ -1,11 +1,12 @@
-import { Card } from "react-bootstrap";
+import { Card, Container, Navbar } from "react-bootstrap";
 
 const Appfooter = () => {
   return (
-    <Card className="text-center">
-      <Card.Body></Card.Body>
-      <Card.Footer className="text-muted">This is a footer</Card.Footer>
-    </Card>
+    <Navbar bg="light" variant="light" fixed="bottom">
+      <Container className="justify-content-center">
+        <div>© 2022 Copyright: CS615 Project</div>
+      </Container>
+    </Navbar>
   );
 };
 
